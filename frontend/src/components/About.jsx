@@ -23,6 +23,18 @@ const About = () => {
           <div className="w-20 h-1 bg-violet-600 mx-auto"></div>
         </div>
 
+        {/* Profile Image */}
+        <div className="flex justify-center mb-12">
+          <div className="relative group">
+            <div className="absolute -inset-1 bg-gradient-to-r from-violet-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-300"></div>
+            <img
+              src={profile.profileImage}
+              alt={profile.name}
+              className="relative w-48 h-48 md:w-56 md:h-56 rounded-full object-cover border-4 border-white dark:border-gray-900 shadow-xl"
+            />
+          </div>
+        </div>
+
         <div className="grid md:grid-cols-2 gap-12 items-start">
           {/* Profile Info */}
           <div className="space-y-6">
