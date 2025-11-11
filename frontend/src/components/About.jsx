@@ -43,25 +43,25 @@ const About = () => {
                   Contact Info
                 </h3>
                 <div className="flex items-center space-x-3 text-gray-700 dark:text-gray-300">
-                  <Mail className="h-5 w-5 text-blue-600" />
+                  <Mail className="h-5 w-5 text-violet-600" />
                   <a
                     href={`mailto:${profile.email}`}
-                    className="hover:text-blue-600 transition-colors"
+                    className="hover:text-violet-600 transition-colors"
                   >
                     {profile.email}
                   </a>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-700 dark:text-gray-300">
-                  <Phone className="h-5 w-5 text-blue-600" />
+                  <Phone className="h-5 w-5 text-violet-600" />
                   <a
                     href={`tel:${profile.phone}`}
-                    className="hover:text-blue-600 transition-colors"
+                    className="hover:text-violet-600 transition-colors"
                   >
                     {profile.phone}
                   </a>
                 </div>
                 <div className="flex items-center space-x-3 text-gray-700 dark:text-gray-300">
-                  <MapPin className="h-5 w-5 text-blue-600" />
+                  <MapPin className="h-5 w-5 text-violet-600" />
                   <span>{profile.location}</span>
                 </div>
               </CardContent>
