@@ -45,7 +45,7 @@ const Navbar = ({ theme, toggleTheme }) => {
           <a
             href="#home"
             onClick={(e) => scrollToSection(e, '#home')}
-            className="text-2xl font-bold text-blue-600 dark:text-blue-400 hover:scale-105 transition-transform"
+            className="text-2xl font-bold text-violet-600 dark:text-violet-400 hover:scale-105 transition-transform"
           >
             LS
           </a>
@@ -57,7 +57,7 @@ const Navbar = ({ theme, toggleTheme }) => {
                 key={link.name}
                 href={link.href}
                 onClick={(e) => scrollToSection(e, link.href)}
-                className="text-gray-700 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors font-medium"
+                className="text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition-colors font-medium"
               >
                 {link.name}
               </a>
