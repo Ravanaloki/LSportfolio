@@ -20,7 +20,7 @@ const About = () => {
           <h2 className="text-4xl md:text-5xl font-bold text-gray-900 dark:text-white mb-4">
             About Me
           </h2>
-          <div className="w-20 h-1 bg-blue-600 mx-auto"></div>
+          <div className="w-20 h-1 bg-violet-600 mx-auto"></div>
         </div>
 
         <div className="grid md:grid-cols-2 gap-12 items-start">
