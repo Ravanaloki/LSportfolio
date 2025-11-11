@@ -73,7 +73,7 @@ const About = () => {
             <Card className="border-none shadow-lg hover:shadow-xl transition-shadow">
               <CardContent className="p-8">
                 <div className="flex items-center space-x-3 mb-4">
-                  <GraduationCap className="h-6 w-6 text-blue-600" />
+                  <GraduationCap className="h-6 w-6 text-violet-600" />
                   <h3 className="text-2xl font-bold text-gray-900 dark:text-white">
                     Education
                   </h3>
