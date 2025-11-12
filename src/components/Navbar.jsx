@@ -68,8 +68,8 @@ const Navbar = () => {
   return (
     <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
       scrolled 
-        ? 'bg-gray-900/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg' 
-        : 'bg-gray-900 dark:bg-gray-900'
+        ? 'bg-white/95 dark:bg-gray-900/95 backdrop-blur-sm shadow-lg' 
+        : 'bg-white dark:bg-gray-900'
     }`}>
       <div className="max-w-7xl mx-auto px-6 py-4">
         <div className="flex items-center justify-between">
@@ -91,14 +91,14 @@ const Navbar = () => {
                 onClick={(e) => scrollToSection(e, link.href)}
                 className={`relative transition-all duration-200 font-medium py-2 px-3 rounded-lg ${
                   isActive(link.href)
-                    ? 'text-violet-400 dark:text-violet-400 bg-gray-800 dark:bg-gray-800'
-                    : 'text-gray-300 hover:text-violet-400 dark:text-gray-300 dark:hover:text-violet-400 hover:bg-gray-800 dark:hover:bg-gray-800'
+                    ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-gray-800'
+                    : 'text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-violet-50 dark:hover:bg-gray-800'
                 }`}
               >
                 {link.name}
                 {/* Active indicator for desktop */}
                 {isActive(link.href) && (
-                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-violet-400 rounded-full"></span>
+                  <span className="absolute bottom-0 left-1/2 transform -translate-x-1/2 w-1 h-1 bg-violet-600 dark:bg-violet-400 rounded-full"></span>
                 )}
               </a>
             ))}
@@ -106,7 +106,7 @@ const Navbar = () => {
             {/* Theme Toggle */}
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-lg bg-gray-800 dark:bg-gray-700 text-gray-300 hover:text-violet-400 dark:hover:text-violet-400 transition-all duration-200 hover:scale-110"
+              className="p-2 rounded-lg bg-violet-50 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition-all duration-200 hover:scale-110"
               aria-label="Toggle theme"
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
@@ -118,7 +118,7 @@ const Navbar = () => {
             {/* Theme Toggle - Mobile */}
             <button
               onClick={toggleTheme}
-              className="p-2 rounded-lg bg-gray-800 dark:bg-gray-700 text-gray-300 hover:text-violet-400 dark:hover:text-violet-400 transition-all duration-200"
+              className="p-2 rounded-lg bg-violet-50 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition-all duration-200"
               aria-label="Toggle theme"
             >
               {isDark ? <Sun size={20} /> : <Moon size={20} />}
@@ -126,7 +126,7 @@ const Navbar = () => {
 
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className="p-2 rounded-lg bg-gray-800 dark:bg-gray-700 text-gray-300 hover:text-violet-400 dark:hover:text-violet-400 transition-all duration-200"
+              className="p-2 rounded-lg bg-violet-50 dark:bg-gray-800 text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 transition-all duration-200"
               aria-label="Toggle menu"
             >
               {isOpen ? <X size={24} /> : <Menu size={24} />}
@@ -139,7 +139,7 @@ const Navbar = () => {
           md:hidden overflow-hidden transition-all duration-300 ease-in-out
           ${isOpen ? 'max-h-96 opacity-100 mt-4' : 'max-h-0 opacity-0'}
         `}>
-          <div className="border-t border-gray-700 pt-4 pb-4">
+          <div className="border-t border-gray-200 dark:border-gray-700 pt-4 pb-4">
             <div className="flex flex-col space-y-2">
               {navLinks.map((link) => (
                 <a
@@ -149,15 +149,15 @@ const Navbar = () => {
                   className={`
                     relative flex items-center justify-between py-3 px-4 rounded-lg transition-all duration-200 font-medium
                     ${isActive(link.href)
-                      ? 'text-violet-400 dark:text-violet-400 bg-gray-800 dark:bg-gray-800'
-                      : 'text-gray-300 hover:text-violet-400 dark:text-gray-300 dark:hover:text-violet-400 hover:bg-gray-800 dark:hover:bg-gray-800'
+                      ? 'text-violet-600 dark:text-violet-400 bg-violet-50 dark:bg-gray-800'
+                      : 'text-gray-700 dark:text-gray-300 hover:text-violet-600 dark:hover:text-violet-400 hover:bg-violet-50 dark:hover:bg-gray-800'
                     }
                   `}
                 >
                   <span>{link.name}</span>
                   {/* Active indicator for mobile */}
                   {isActive(link.href) && (
-                    <span className="w-2 h-2 bg-violet-400 rounded-full"></span>
+                    <span className="w-2 h-2 bg-violet-600 dark:bg-violet-400 rounded-full"></span>
                   )}
                 </a>
               ))}
