@@ -1,0 +1,73 @@
+{
+  "projects": [
+    {
+      "id": 1,
+      "title": "Nova - JARVIS-like AI Assistant",
+      "description": "Currently building an AI-powered assistant inspired by JARVIS, featuring voice recognition and task automation.",
+      "technologies": [
+        "React",
+        "Node.js",
+        "AI/ML",
+        "Voice API"
+      ],
+      "status": "In Progress",
+      "thumbnail": "https://images.unsplash.com/photo-1677442136019-21780ecad995?w=800&h=600&fit=crop",
+      "link": ""
+    },
+    {
+      "id": 2,
+      "title": "Physiotherapy Website",
+      "description": "Developed and designed a responsive web layout for a physiotherapy clinic with appointment booking features.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "Responsive Design"
+      ],
+      "status": "Completed",
+      "thumbnail": "https://images.unsplash.com/photo-1576091160399-112ba8d25d1d?w=800&h=600&fit=crop",
+      "link": ""
+    },
+    {
+      "id": 3,
+      "title": "Teddy Project - Online Toy Store",
+      "description": "Built an e-commerce website for a friend's online toy store featuring product catalog and shopping cart.",
+      "technologies": [
+        "HTML",
+        "CSS",
+        "JavaScript",
+        "UI/UX Design"
+      ],
+      "status": "Completed",
+      "thumbnail": "https://images.unsplash.com/photo-1515488042361-ee00e0ddd4e4?w=800&h=600&fit=crop",
+      "link": ""
+    },
+    {
+      "id": 4,
+      "title": "Car Poster Designs",
+      "description": "Created stunning graphic posters for automotive brands using Adobe Illustrator and Photoshop.",
+      "technologies": [
+        "Adobe Illustrator",
+        "Photoshop",
+        "Graphic Design"
+      ],
+      "status": "Completed",
+      "thumbnail": "https://images.unsplash.com/photo-1492144534655-ae79c964c9d7?w=800&h=600&fit=crop",
+      "link": ""
+    },
+    {
+      "id": 5,
+      "title": "Personal Portfolio Website",
+      "description": "Designed and developed a creative portfolio website showcasing UI/UX skills and projects.",
+      "technologies": [
+        "React",
+        "Figma",
+        "Tailwind CSS",
+        "Adobe XD"
+      ],
+      "status": "Completed",
+      "thumbnail": "https://images.unsplash.com/photo-1467232004584-a241de8bcf5d?w=800&h=600&fit=crop",
+      "link": ""
+    }
+  ]
+}

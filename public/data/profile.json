@@ -1,0 +1,34 @@
+{
+  "name": "LOKESH S",
+  "role": "Frontend Developer & Designer",
+  "tagline": "Crafting beautiful, user-friendly digital experiences",
+  "profileImage": "/with_blob.png",
+  "aboutImage": "/my_pic.png",
+  "about": "Aspiring Frontend Developer and Designer with a strong foundation in HTML, CSS, Java, and UI/UX tools. Passionate about building creative, user-friendly solutions and eager to contribute technical and design expertise to dynamic teams.",
+  "email": "lokeshshankar779@gmail.com",
+  "phone": "+91 86676 45350",
+  "location": "Vellore, Tamil Nadu",
+  "education": {
+    "college": "Mahendra College of Engineering",
+    "degree": "B.E. in Computer Science & Engineering",
+    "expectedGraduation": "2026",
+    "secondarySchool": "Islamiah Higher Secondary School",
+    "secondaryYears": "2016-2022"
+  },
+  "strengths": [
+    "Quick learner and adaptable",
+    "Strong creative and analytical mindset",
+    "Effective team player"
+  ],
+  "hobbies": [
+    "Video & Photo Editing",
+    "Reading books (Ego is the Enemy, White Night)",
+    "Playing Volleyball"
+  ],
+  "socialLinks": {
+    "twitter" : "#",
+    "github" : "#",
+    "linkedin" : "https://www.linkedin.com/in/lokesh-s-aaaa45299",
+    "instagram" : "#"
+  }
+}

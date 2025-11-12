@@ -1,0 +1,32 @@
+{
+  "categories": [
+    {
+      "name": "Programming & Web",
+      "skills": [
+        { "name": "HTML", "level": 90 },
+        { "name": "CSS", "level": 85 },
+        { "name": "JavaScript", "level": 75 },
+        { "name": "Java", "level": 70 },
+        { "name": "React", "level": 80 }
+      ]
+    },
+    {
+      "name": "Tools & Design",
+      "skills": [
+        { "name": "Figma", "level": 90 },
+        { "name": "Adobe Illustrator", "level": 85 },
+        { "name": "Photoshop", "level": 80 },
+        { "name": "Adobe XD", "level": 75 },
+        { "name": "Canva", "level": 90 }
+      ]
+    },
+    {
+      "name": "Productivity",
+      "skills": [
+        { "name": "MS Office", "level": 85 },
+        { "name": "Excel", "level": 80 },
+        { "name": "Git", "level": 70 }
+      ]
+    }
+  ]
+}
